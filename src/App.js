@@ -2,6 +2,7 @@ import './App.css';
 import {Route, Switch} from "react-router-dom";
 import Overview from "./pages/overview/Overview";
 import Subreddit from "./pages/subreddit/Subreddit";
+import React from "react";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <Route exact path='/'>
           <Overview />
         </Route>
-        <Route>
-          <Subreddit path='/subreddit'/>
+        <Route path='/subreddit/:subredditName'>
+          <Subreddit />
         </Route>
       </Switch>
     </>

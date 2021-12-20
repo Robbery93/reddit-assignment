@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+.subreddit-page {
+    background-color: #FFFFFF;
+    padding: 3em;
+    margin: 75px;
+    width: 600px;
+    border: #656565 solid 3px;
+    border-radius: 25px;
+}
+
+.subreddit-page h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subreddit-page img {
+    width: 100px;
+    height: 100px;
+}
+
+.noIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100px;
+}
+footer {
+    font-size: 10px;
+    color: red
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #FFECE5;
+    border: 2px solid #FFAF93;
+    border-radius: 3px;
+    transition: background-color, border, 0.1s;
+}
+
+button:hover {
+    background-color: #FFAF93;
+    border: 2px solid #FF4500;
+}
+
+#svg {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#error-msg {
+    color: red;
+    font-size: 1.5em;
+}
